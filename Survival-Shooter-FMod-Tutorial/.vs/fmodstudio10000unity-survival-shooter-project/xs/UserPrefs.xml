@@ -1,0 +1,47 @@
+﻿<Properties StartupConfiguration="{0E60B11C-DC86-D423-7CDB-871385525FD7}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_CompletedAssets/Scripts/Enemy/EnemyHealth.cs">
+    <Files>
+      <File FileName="Assets/_CompletedAssets/Scripts/Enemy/EnemyHealth.cs" Line="66" Column="89" />
+      <File FileName="Assets/_CompletedAssets/Scripts/Player/PlayerHealth.cs" />
+      <File FileName="Assets/_CompletedAssets/Scripts/Player/PlayerShooting.cs" />
+      <File FileName="Assets/_CompletedAssets/Scripts/Enemy/EnemyMovement.cs" />
+      <File FileName="Assets/_CompletedAssets/Scripts/Managers/MusicControl.cs" />
+      <File FileName="Assets/_CompletedAssets/Scripts/Managers/EnemyManager.cs" />
+      <File FileName="Assets/_CompletedAssets/Scripts/Managers/GameOverManager.cs" Line="38" Column="2" />
+      <File FileName="Assets/_CompletedAssets/Scripts/Helpers/VolumeHandler.cs" />
+      <File FileName="Assets/_CompletedAssets/Scripts/Managers/PauseManager.cs" />
+      <File FileName="Assets/_CompletedAssets/Scripts/Managers/ScoreManager.cs" />
+      <File FileName="Assets/Scripts/Managers/ScoreManager.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="fmodstudio10000unity-survival-shooter-project" expanded="True">
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="_CompletedAssets" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="Audio" expanded="True" />
+                  <Node name="Camera" expanded="True" />
+                  <Node name="Enemy" expanded="True" />
+                  <Node name="Helpers" expanded="True" />
+                  <Node name="Managers" expanded="True" />
+                  <Node name="Player" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Scripts" expanded="True">
+                <Node name="Managers" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="eaf10855-dce6-45af-a99f-db8658998a36" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
