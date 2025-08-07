@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 114763945111575960}
-  - {fileID: 114162060213728580}
+  - {fileID: 114947185915435126}
   EditorEvents:
   - {fileID: 114053452262654928}
   - {fileID: 114860673082693208}
@@ -33,10 +33,10 @@ MonoBehaviour:
   - {fileID: 114521404119365564}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 114162060213728580}
+  - {fileID: 114947185915435126}
   StringsBanks:
   - {fileID: 114763945111575960}
-  stringsBankWriteTime: 638850985110000000
+  stringsBankWriteTime: 638901831029732189
   cacheVersion: 3
 --- !u!114 &114022695793557604
 MonoBehaviour:
@@ -123,7 +123,7 @@ MonoBehaviour:
   Path: event:/SFX/Enemies/ZomBunny/Hurt
   guid: 0ebbc951ac710a46a0fd2d1b4a47171e
   Banks:
-  - {fileID: 114162060213728580}
+  - {fileID: 114947185915435126}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -268,7 +268,7 @@ MonoBehaviour:
   Path: event:/SFX/Player/Death
   guid: f5dc40510593a544922f8741ac08db11
   Banks:
-  - {fileID: 114162060213728580}
+  - {fileID: 114947185915435126}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -291,7 +291,7 @@ MonoBehaviour:
   Path: event:/SFX/Player/Hurt
   guid: 180cac8b45547d47b394c190d3ca71e1
   Banks:
-  - {fileID: 114162060213728580}
+  - {fileID: 114947185915435126}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -492,13 +492,13 @@ MonoBehaviour:
   Path: event:/Music/Survival_Shooter
   guid: 627b1ade0856834db1f060822e777004
   Banks:
-  - {fileID: 114162060213728580}
+  - {fileID: 114947185915435126}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 114083158580068684}
-  - {fileID: 114895530606550882}
+  - {fileID: 114230419737579706}
+  - {fileID: 114677476576961710}
   MinDistance: 0
   MaxDistance: 0
   Length: 107290
@@ -556,6 +556,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &114230419737579706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsUnderHalfHealth
+  m_EditorClassIdentifier: 
+  Name: IsUnderHalfHealth
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114232312584446652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -640,7 +657,7 @@ MonoBehaviour:
   Path: event:/SFX/Enemies/ZomBear/Death
   guid: 0f665aa16fd27b49961a2b7d2b93ed59
   Banks:
-  - {fileID: 114162060213728580}
+  - {fileID: 114947185915435126}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -840,7 +857,7 @@ MonoBehaviour:
   Path: event:/SFX/Enemies/ZomBunny/Death
   guid: 8086ead40d05ba4a8107bca40f8215ed
   Banks:
-  - {fileID: 114162060213728580}
+  - {fileID: 114947185915435126}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -951,7 +968,7 @@ MonoBehaviour:
   Path: snapshot:/IsUnderHalfHealth
   guid: c2e34e4eb2fdd645a6b5b1ac9b61a1bc
   Banks:
-  - {fileID: 114162060213728580}
+  - {fileID: 114947185915435126}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -1239,6 +1256,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &114677476576961710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsDead
+  m_EditorClassIdentifier: 
+  Name: IsDead
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114679817505374688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1272,7 +1306,7 @@ MonoBehaviour:
   Path: event:/SFX/Player/GunShot
   guid: aff3f58cbdceca4fbb409b6697429c8a
   Banks:
-  - {fileID: 114162060213728580}
+  - {fileID: 114947185915435126}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1455,7 +1489,7 @@ MonoBehaviour:
   Path: event:/SFX/Enemies/ZomBear/Hurt
   guid: 830a24e6a635074786d9e9a6f1a18793
   Banks:
-  - {fileID: 114162060213728580}
+  - {fileID: 114947185915435126}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1477,7 +1511,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../FMOD Studio Tutorial Project/Survival-Shooter/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 638850985110000000
+  lastModified: 638901831029732189
   LoadResult: 0
   FileSizes:
   - Name: 
@@ -1498,7 +1532,7 @@ MonoBehaviour:
   Path: event:/SFX/Enemies/Hellephant/Footstep
   guid: 29019f8464aef144bd8e1c07ca61a3f6
   Banks:
-  - {fileID: 114162060213728580}
+  - {fileID: 114947185915435126}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1608,7 +1642,7 @@ MonoBehaviour:
   Path: event:/SFX/Enemies/ZomBear/Footstep
   guid: 3664afaad7fc8f4d9ee439f77b187845
   Banks:
-  - {fileID: 114162060213728580}
+  - {fileID: 114947185915435126}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1649,7 +1683,7 @@ MonoBehaviour:
   Path: event:/SFX/Player/Footstep
   guid: f243754aa3e5a745baedc89d9404b1a9
   Banks:
-  - {fileID: 114162060213728580}
+  - {fileID: 114947185915435126}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1672,7 +1706,7 @@ MonoBehaviour:
   Path: event:/SFX/Enemies/Hellephant/Hurt
   guid: 0f1ec1e14b9fa141a5f22a383e162cbc
   Banks:
-  - {fileID: 114162060213728580}
+  - {fileID: 114947185915435126}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1820,7 +1854,7 @@ MonoBehaviour:
   Path: event:/SFX/Enemies/ZomBunny/Footstep
   guid: 8d3c5a77199db248a112b9512801867b
   Banks:
-  - {fileID: 114162060213728580}
+  - {fileID: 114947185915435126}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1881,6 +1915,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &114947185915435126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD Studio Tutorial Project/Survival-Shooter/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 638901831029702107
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &114959331395038134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2019,7 +2071,7 @@ MonoBehaviour:
   Path: event:/SFX/Enemies/Hellephant/Death
   guid: 6f19817858ce70418e569d3ba79966bb
   Banks:
-  - {fileID: 114162060213728580}
+  - {fileID: 114947185915435126}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1

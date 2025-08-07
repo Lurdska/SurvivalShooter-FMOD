@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/_CompletedAssets/Scenes/Survival-Shooter-Fmod-Demo.unity
+  isLoaded: 1
+  isActive: 1
