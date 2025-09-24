@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{740dc650-8865-4ee4-b835-11e6c811742e}">
+		<property name="assetPath">
+			<value>SFX/Gunshot-005.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.0666249999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{9954415c-a0d0-4c16-88f9-798e699f52d7}</destination>
+		</relationship>
+	</object>
+</objects>

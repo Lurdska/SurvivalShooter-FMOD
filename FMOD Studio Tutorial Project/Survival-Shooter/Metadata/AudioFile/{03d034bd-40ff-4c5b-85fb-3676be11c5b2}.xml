@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{03d034bd-40ff-4c5b-85fb-3676be11c5b2}">
+		<property name="assetPath">
+			<value>Music/Death-Stinger.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>4</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{9954415c-a0d0-4c16-88f9-798e699f52d7}</destination>
+		</relationship>
+	</object>
+</objects>

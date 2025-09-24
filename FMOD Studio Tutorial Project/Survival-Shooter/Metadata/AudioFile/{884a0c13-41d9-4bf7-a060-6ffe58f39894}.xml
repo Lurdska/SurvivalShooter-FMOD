@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{884a0c13-41d9-4bf7-a060-6ffe58f39894}">
+		<property name="assetPath">
+			<value>SFX/Player_Idle_005.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.0321041666666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{9954415c-a0d0-4c16-88f9-798e699f52d7}</destination>
+		</relationship>
+	</object>
+</objects>

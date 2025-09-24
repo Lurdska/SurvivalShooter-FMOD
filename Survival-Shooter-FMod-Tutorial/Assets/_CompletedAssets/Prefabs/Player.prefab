@@ -5259,7 +5259,7 @@ MonoBehaviour:
   healthSlider: {fileID: 0}
   damageImage: {fileID: 0}
   flashSpeed: 5
-  flashColour: {r: 1, g: 0, b: 0, a: 0.09803922}
+  flashColour: {r: 0.9339623, g: 0.1759449, b: 0.14538093, a: 0.09803922}
   musicSystem: {fileID: 0}
   playerHurtSound: event:/SFX/Player/Hurt
   playerDeathSound: event:/SFX/Player/Death

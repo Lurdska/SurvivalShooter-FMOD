@@ -1,117 +1,133 @@
 ﻿using UnityEngine;
 using UnitySampleAssets.CrossPlatformInput;
+using FMODUnity;
 
 namespace CompleteProject
 {
     public class PlayerMovement : MonoBehaviour
     {
-        public float speed = 6f;            // The speed that the player will move at.
+        public float speed = 6f; // velocidad del player
 
+        // --- FOOTSTEPS ---
+        [Header("FMOD Footsteps")]
+        public StudioEventEmitter footstepEmitter;
+        public float stepDistance = 0.40f;         // metros por paso (0.35–0.5 aprox)
+        public float minSpeedForStep = 0.10f;      // umbral para no disparar en casi quieto
+        public float groundedRayDist = 0.30f;      // chequeo suelo
 
-        Vector3 movement;                   // The vector to store the direction of the player's movement.
-        Animator anim;                      // Reference to the animator component.
-        Rigidbody playerRigidbody;          // Reference to the player's rigidbody.
+        Vector3 movement;
+        Animator anim;
+        Rigidbody playerRigidbody;
 #if !MOBILE_INPUT
-        int floorMask;                      // A layer mask so that a ray can be cast just at gameobjects on the floor layer.
-        float camRayLength = 100f;          // The length of the ray from the camera into the scene.
+        int floorMask;
+        float camRayLength = 100f;
 #endif
 
-        void Awake ()
+        // acumulador de distancia y posición previa
+        Vector3 prevPos;
+        float distAccum = 0f;
+
+        void Awake()
         {
 #if !MOBILE_INPUT
-            // Create a layer mask for the floor layer.
-            floorMask = LayerMask.GetMask ("Floor");
+            floorMask = LayerMask.GetMask("Floor");
 #endif
-
-            // Set up references.
-            anim = GetComponent <Animator> ();
-            playerRigidbody = GetComponent <Rigidbody> ();
+            anim = GetComponent<Animator>();
+            playerRigidbody = GetComponent<Rigidbody>();
+            prevPos = transform.position;
         }
 
-
-        void FixedUpdate ()
+        void FixedUpdate()
         {
-            // Store the input axes.
             float h = CrossPlatformInputManager.GetAxisRaw("Horizontal");
             float v = CrossPlatformInputManager.GetAxisRaw("Vertical");
 
-            // Move the player around the scene.
-            Move (h, v);
+            Move(h, v);
+            Turning();
+            Animating(h, v);
 
-            // Turn the player to face the mouse cursor.
-            Turning ();
-
-            // Animate the player.
-            Animating (h, v);
+            FootstepTick(h, v); // dispara pasos según movimiento
         }
 
-
-        void Move (float h, float v)
+        void Move(float h, float v)
         {
-            // Set the movement vector based on the axis input.
-            movement.Set (h, 0f, v);
-            
-            // Normalise the movement vector and make it proportional to the speed per second.
+            movement.Set(h, 0f, v);
             movement = movement.normalized * speed * Time.deltaTime;
-
-            // Move the player to it's current position plus the movement.
-            playerRigidbody.MovePosition (transform.position + movement);
+            playerRigidbody.MovePosition(transform.position + movement);
         }
 
-
-        void Turning ()
+        void Turning()
         {
 #if !MOBILE_INPUT
-            // Create a ray from the mouse cursor on screen in the direction of the camera.
-            Ray camRay = Camera.main.ScreenPointToRay (Input.mousePosition);
-
-            // Create a RaycastHit variable to store information about what was hit by the ray.
+            Ray camRay = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit floorHit;
 
-            // Perform the raycast and if it hits something on the floor layer...
-            if(Physics.Raycast (camRay, out floorHit, camRayLength, floorMask))
+            if (Physics.Raycast(camRay, out floorHit, camRayLength, floorMask))
             {
-                // Create a vector from the player to the point on the floor the raycast from the mouse hit.
                 Vector3 playerToMouse = floorHit.point - transform.position;
-
-                // Ensure the vector is entirely along the floor plane.
                 playerToMouse.y = 0f;
-
-                // Create a quaternion (rotation) based on looking down the vector from the player to the mouse.
-                Quaternion newRotatation = Quaternion.LookRotation (playerToMouse);
-
-                // Set the player's rotation to this new rotation.
-                playerRigidbody.MoveRotation (newRotatation);
+                Quaternion newRotatation = Quaternion.LookRotation(playerToMouse);
+                playerRigidbody.MoveRotation(newRotatation);
             }
 #else
-
-            Vector3 turnDir = new Vector3(CrossPlatformInputManager.GetAxisRaw("Mouse X") , 0f , CrossPlatformInputManager.GetAxisRaw("Mouse Y"));
-
+            Vector3 turnDir = new Vector3(CrossPlatformInputManager.GetAxisRaw("Mouse X"), 0f, CrossPlatformInputManager.GetAxisRaw("Mouse Y"));
             if (turnDir != Vector3.zero)
             {
-                // Create a vector from the player to the point on the floor the raycast from the mouse hit.
                 Vector3 playerToMouse = (transform.position + turnDir) - transform.position;
-
-                // Ensure the vector is entirely along the floor plane.
                 playerToMouse.y = 0f;
-
-                // Create a quaternion (rotation) based on looking down the vector from the player to the mouse.
                 Quaternion newRotatation = Quaternion.LookRotation(playerToMouse);
-
-                // Set the player's rotation to this new rotation.
                 playerRigidbody.MoveRotation(newRotatation);
             }
 #endif
         }
 
-
-        void Animating (float h, float v)
+        void Animating(float h, float v)
         {
-            // Create a boolean that is true if either of the input axes is non-zero.
             bool walking = h != 0f || v != 0f;
+            anim.SetBool("IsWalking", walking);
+        }
 
-            // Tell the animator whether or not the player is walking.
-            anim.SetBool ("IsWalking", walking);
+        // ---------------- FOOTSTEPS ----------------
+        void FootstepTick(float h, float v)
+        {
+            // distancia horizontal recorrida este frame (usamos delta de posición real)
+            Vector3 pos = transform.position;
+            Vector3 delta = pos - prevPos;
+            delta.y = 0f;
+            float horizDelta = delta.magnitude;
+
+            // velocidad horizontal aproximada
+            float horizSpeed = horizDelta / Mathf.Max(Time.deltaTime, 0.0001f);
+
+            bool moving = (h != 0f || v != 0f) && horizSpeed > minSpeedForStep;
+
+            // grounded: raycast corto hacia abajo contra capa Floor
+            bool grounded = Physics.Raycast(transform.position + Vector3.up * 0.05f,
+                                            Vector3.down,
+                                            groundedRayDist + 0.05f,
+#if !MOBILE_INPUT
+                                            floorMask
+#else
+                                            ~0
+#endif
+                                            );
+
+            if (moving && grounded && footstepEmitter != null)
+            {
+                distAccum += horizDelta;
+                if (distAccum >= stepDistance)
+                {
+                    footstepEmitter.Play(); // dispara el evento de paso (one-shot)
+                    distAccum = 0f;
+                }
+            }
+            else
+            {
+                // si se detiene, no sigue acumulando
+                distAccum = 0f;
+            }
+
+            prevPos = pos;
         }
     }
 }

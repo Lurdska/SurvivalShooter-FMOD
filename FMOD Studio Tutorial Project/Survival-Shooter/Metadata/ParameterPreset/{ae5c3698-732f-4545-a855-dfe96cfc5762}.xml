@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="ParameterPreset" id="{ae5c3698-732f-4545-a855-dfe96cfc5762}">
 		<property name="name">
-			<value>IsDead</value>
+			<value>dead</value>
 		</property>
 		<relationship name="folder">
 			<destination>{de976152-4c93-45c7-94a9-34ac1ebfc353}</destination>

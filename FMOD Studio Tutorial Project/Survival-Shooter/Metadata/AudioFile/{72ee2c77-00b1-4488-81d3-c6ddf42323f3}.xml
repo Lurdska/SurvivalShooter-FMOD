@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{72ee2c77-00b1-4488-81d3-c6ddf42323f3}">
+		<property name="assetPath">
+			<value>Music/BGM-Transicion-2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.2000000000000002</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{9954415c-a0d0-4c16-88f9-798e699f52d7}</destination>
+		</relationship>
+	</object>
+</objects>
