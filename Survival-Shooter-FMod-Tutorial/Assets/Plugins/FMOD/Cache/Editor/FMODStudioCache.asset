@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 114763945111575960}
-  - {fileID: 114673874466109552}
+  - {fileID: 114917873621247938}
   EditorEvents:
   - {fileID: 114521404119365564}
   - {fileID: 114553065974211988}
@@ -37,10 +37,10 @@ MonoBehaviour:
   - {fileID: 114717032705715034}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 114673874466109552}
+  - {fileID: 114917873621247938}
   StringsBanks:
   - {fileID: 114763945111575960}
-  stringsBankWriteTime: 638943097179067442
+  stringsBankWriteTime: 638949891725574306
   cacheVersion: 3
 --- !u!114 &114004595353853734
 MonoBehaviour:
@@ -77,6 +77,40 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &114006486405459638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsUnderHalfHealth
+  m_EditorClassIdentifier: 
+  Name: IsUnderHalfHealth
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114009343573187170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsDead
+  m_EditorClassIdentifier: 
+  Name: IsDead
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114011883868511682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111,6 +145,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 1
+--- !u!114 &114014088279227586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &114014673162483402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,6 +177,23 @@ MonoBehaviour:
   Name: IsDead
   Min: 0
   Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114017382285778534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
   Default: 0
   Exists: 0
 --- !u!114 &114018017188637160
@@ -291,6 +359,24 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 1
+--- !u!114 &114026787571579808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD Studio Tutorial Project/Survival-Shooter/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 638943364619004390
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &114027211157590184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -342,6 +428,24 @@ MonoBehaviour:
   Min: 0
   Max: 3
   Default: 0
+  Exists: 0
+--- !u!114 &114028300998061312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD Studio Tutorial Project/Survival-Shooter/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 638948312077947693
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &114029907036977366
 MonoBehaviour:
@@ -725,6 +829,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114058319093466226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &114058566019184890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -792,7 +913,7 @@ MonoBehaviour:
   Path: event:/SFX/Enemies/Hellephant/Idle
   guid: 1d52b3ea6972a4418a248e371deab1a9
   Banks:
-  - {fileID: 114673874466109552}
+  - {fileID: 114917873621247938}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1065,6 +1186,40 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 893
+--- !u!114 &114083727183275010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &114083845406368758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &114084182740591384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1701,6 +1856,23 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 882
+--- !u!114 &114136937700466444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsUnderHalfHealth
+  m_EditorClassIdentifier: 
+  Name: IsUnderHalfHealth
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114145677270412026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1750,7 +1922,7 @@ MonoBehaviour:
   Path: event:/SFX/Enemies/ZomBunny/Idle
   guid: b354563088d3fd41b287c5a937baba04
   Banks:
-  - {fileID: 114673874466109552}
+  - {fileID: 114917873621247938}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -2104,6 +2276,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1466
+--- !u!114 &114172061903884850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &114172149103894614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2632,12 +2821,12 @@ MonoBehaviour:
   Path: event:/SFX/Enemies/Hellephant/Footstep
   guid: 72a24fb8527fc74f9d004ef404d1d602
   Banks:
-  - {fileID: 114673874466109552}
+  - {fileID: 114917873621247938}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 114419702600745072}
+  - {fileID: 114246649675341222}
   MinDistance: 1
   MaxDistance: 20
   Length: 900
@@ -2778,6 +2967,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &114210092625808490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &114210521606221730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &114212075284673600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2793,6 +3016,41 @@ MonoBehaviour:
   Path: ../FMOD Studio Tutorial Project/Survival-Shooter/Build/Desktop/Master.bank
   SubDir: 
   lastModified: 638942203537445274
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &114212981394317196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsDead
+  m_EditorClassIdentifier: 
+  Name: IsDead
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114213574614156998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD Studio Tutorial Project/Survival-Shooter/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 638943347293774411
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -2966,7 +3224,7 @@ MonoBehaviour:
   Path: event:/SFX/Enemies/ZomBunny/Death
   guid: 2d65168255ed0f4ba920f9e184402e86
   Banks:
-  - {fileID: 114673874466109552}
+  - {fileID: 114917873621247938}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -3007,7 +3265,7 @@ MonoBehaviour:
   Path: event:/SFX/Player/Death
   guid: 79558db5856b4a46b31b87b4ba9dca05
   Banks:
-  - {fileID: 114673874466109552}
+  - {fileID: 114917873621247938}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3193,6 +3451,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &114239986366018740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsDead
+  m_EditorClassIdentifier: 
+  Name: IsDead
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114240727479419892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3278,7 +3553,7 @@ MonoBehaviour:
   Path: event:/SFX/Enemies/ZomBear/Idle
   guid: 1e69509df3f1f941926d9513c3d295c5
   Banks:
-  - {fileID: 114673874466109552}
+  - {fileID: 114917873621247938}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3309,6 +3584,23 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1216
+--- !u!114 &114246649675341222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
 --- !u!114 &114246942095320490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3374,6 +3666,23 @@ MonoBehaviour:
   m_Name: parameter:/1/dead
   m_EditorClassIdentifier: 
   Name: dead
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114249718157215558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsUnderHalfHealth
+  m_EditorClassIdentifier: 
+  Name: IsUnderHalfHealth
   Min: 0
   Max: 1
   Default: 0
@@ -3718,6 +4027,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &114274207862366970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
 --- !u!114 &114275907396921930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3785,7 +4111,7 @@ MonoBehaviour:
   Path: event:/SFX/Enemies/ZomBunny/Hurt
   guid: e7b084f09b67234494e28630fccff69e
   Banks:
-  - {fileID: 114673874466109552}
+  - {fileID: 114917873621247938}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3900,6 +4226,24 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 0
+--- !u!114 &114292747049890624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD Studio Tutorial Project/Survival-Shooter/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 638943365799284107
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &114293539986228040
 MonoBehaviour:
@@ -4193,6 +4537,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &114325331075453022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD Studio Tutorial Project/Survival-Shooter/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 638943360691505133
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &114330482437335466
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4228,6 +4590,23 @@ MonoBehaviour:
   Default: 0
   Exists: 0
 --- !u!114 &114335076562184164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &114335370457279348
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4433,6 +4812,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &114355141788313988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &114355320459774046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4502,6 +4898,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &114359522682988654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
 --- !u!114 &114364108392564924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4517,6 +4930,23 @@ MonoBehaviour:
   Name: EnemiesQuantity
   Min: 0
   Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &114364270413746630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsDead
+  m_EditorClassIdentifier: 
+  Name: IsDead
+  Min: 0
+  Max: 1
   Default: 0
   Exists: 0
 --- !u!114 &114364751151966100
@@ -4570,6 +5000,24 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114367886786322152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD Studio Tutorial Project/Survival-Shooter/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 638943347885690485
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &114369374929743678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4587,6 +5035,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 1
+--- !u!114 &114369888373096326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsUnderHalfHealth
+  m_EditorClassIdentifier: 
+  Name: IsUnderHalfHealth
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114370789044559794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4605,6 +5070,58 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &114371280329739482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD Studio Tutorial Project/Survival-Shooter/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 638943362186413457
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &114372293691711654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsUnderHalfHealth
+  m_EditorClassIdentifier: 
+  Name: IsUnderHalfHealth
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114373254041913178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
 --- !u!114 &114374274384820874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4624,6 +5141,23 @@ MonoBehaviour:
   FileSizes: []
   Exists: 0
 --- !u!114 &114375056035039682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &114376269641945998
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4723,7 +5257,7 @@ MonoBehaviour:
   Path: event:/SFX/Player/Idle
   guid: fe8900ae51194c4b9692e484eee51e19
   Banks:
-  - {fileID: 114673874466109552}
+  - {fileID: 114917873621247938}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -4784,7 +5318,58 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &114384861858415922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &114387966843747404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &114388062467665960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &114388177076196614
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4936,12 +5521,12 @@ MonoBehaviour:
   Path: event:/SFX/Enemies/ZomBear/Footstep
   guid: 7900a88fdc626842834a6c6bf87218d8
   Banks:
-  - {fileID: 114673874466109552}
+  - {fileID: 114917873621247938}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 114533224440666518}
+  - {fileID: 114541705430692264}
   MinDistance: 1
   MaxDistance: 20
   Length: 461
@@ -4994,6 +5579,23 @@ MonoBehaviour:
   Name: EnemiesQuantity
   Min: 0
   Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &114404647078712720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsDead
+  m_EditorClassIdentifier: 
+  Name: IsDead
+  Min: 0
+  Max: 1
   Default: 0
   Exists: 0
 --- !u!114 &114406766430623790
@@ -5066,6 +5668,23 @@ MonoBehaviour:
   Default: 0
   Exists: 0
 --- !u!114 &114412775945267276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsDead
+  m_EditorClassIdentifier: 
+  Name: IsDead
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &114413577686878896
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5185,6 +5804,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &114427588017028830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsUnderHalfHealth
+  m_EditorClassIdentifier: 
+  Name: IsUnderHalfHealth
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114427953442797084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5236,7 +5872,7 @@ MonoBehaviour:
   Path: event:/SFX/Player/Hurt
   guid: c5cb448283046f42b197868091c3ce08
   Banks:
-  - {fileID: 114673874466109552}
+  - {fileID: 114917873621247938}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -5502,6 +6138,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114451554415395902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &114451874157657920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5565,6 +6218,23 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 461
+--- !u!114 &114458007695574498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
 --- !u!114 &114460479279713018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5581,6 +6251,24 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 0
+--- !u!114 &114460800697823758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD Studio Tutorial Project/Survival-Shooter/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 638943347514825795
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &114465239325209970
 MonoBehaviour:
@@ -5650,7 +6338,7 @@ MonoBehaviour:
   Path: event:/SFX/Player/Gunshot
   guid: 5cbe1e16be81564d8949cc47ddb9928a
   Banks:
-  - {fileID: 114673874466109552}
+  - {fileID: 114917873621247938}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -5938,6 +6626,58 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114492712151631884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &114494099606146498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD Studio Tutorial Project/Survival-Shooter/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 638943348389228449
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &114495091240016102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &114495709770894190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6042,6 +6782,24 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &114499917182241336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD Studio Tutorial Project/Survival-Shooter/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 638943350359725092
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &114502164924038350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6076,6 +6834,24 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &114509874132266010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD Studio Tutorial Project/Survival-Shooter/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 638943357383940664
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &114510100973339772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6093,6 +6869,23 @@ MonoBehaviour:
   lastModified: 638942238851121311
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &114510388450593612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsUnderHalfHealth
+  m_EditorClassIdentifier: 
+  Name: IsUnderHalfHealth
+  Min: 0
+  Max: 1
+  Default: 0
   Exists: 0
 --- !u!114 &114516122208867932
 MonoBehaviour:
@@ -6166,7 +6959,7 @@ MonoBehaviour:
   Path: snapshot:/IsUnderHalfHealth
   guid: c2e34e4eb2fdd645a6b5b1ac9b61a1bc
   Banks:
-  - {fileID: 114673874466109552}
+  - {fileID: 114917873621247938}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -6207,6 +7000,24 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 1
+--- !u!114 &114525302290685668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD Studio Tutorial Project/Survival-Shooter/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 638943392401396773
+  LoadResult: 0
+  FileSizes: []
   Exists: 1
 --- !u!114 &114526162460089556
 MonoBehaviour:
@@ -6335,6 +7146,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 1
+--- !u!114 &114533975343826668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &114534018361881470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6424,6 +7252,91 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &114540304215674394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &114541705430692264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &114542027038307536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &114542068232104938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsUnderHalfHealth
+  m_EditorClassIdentifier: 
+  Name: IsUnderHalfHealth
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &114542161926752122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &114542863565549528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6493,6 +7406,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &114548862802711694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsDead
+  m_EditorClassIdentifier: 
+  Name: IsDead
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114551143320859040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6565,12 +7495,12 @@ MonoBehaviour:
   Path: event:/SFX/Enemies/ZomBunny/Footstep
   guid: 16d8b124d59ec64ab1f35484dc205ee6
   Banks:
-  - {fileID: 114673874466109552}
+  - {fileID: 114917873621247938}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 114609979646852288}
+  - {fileID: 114274207862366970}
   MinDistance: 1
   MaxDistance: 20
   Length: 461
@@ -6624,6 +7554,23 @@ MonoBehaviour:
   Name: IsDead
   Min: 0
   Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114555068303317918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
   Default: 0
   Exists: 0
 --- !u!114 &114555116014541858
@@ -6830,6 +7777,23 @@ MonoBehaviour:
   Name: EnemiesQuantity
   Min: 0
   Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &114569976444395712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsDead
+  m_EditorClassIdentifier: 
+  Name: IsDead
+  Min: 0
+  Max: 1
   Default: 0
   Exists: 0
 --- !u!114 &114571484313457148
@@ -7078,7 +8042,41 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114583397017534212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsDead
+  m_EditorClassIdentifier: 
+  Name: IsDead
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114583695576391944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsUnderHalfHealth
+  m_EditorClassIdentifier: 
+  Name: IsUnderHalfHealth
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114584158794464898
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7149,6 +8147,23 @@ MonoBehaviour:
   Default: 0
   Exists: 0
 --- !u!114 &114586575403525200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &114589159947489510
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7247,6 +8262,23 @@ MonoBehaviour:
   m_Name: parameter:/Survival_Shooter/IsUnderHalfHealth
   m_EditorClassIdentifier: 
   Name: IsUnderHalfHealth
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114602317852962448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsDead
+  m_EditorClassIdentifier: 
+  Name: IsDead
   Min: 0
   Max: 1
   Default: 0
@@ -7502,6 +8534,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &114618596769646110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &114619940595762386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7554,6 +8603,23 @@ MonoBehaviour:
   lastModified: 638941613678425064
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &114622253956126306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
   Exists: 0
 --- !u!114 &114623270440904190
 MonoBehaviour:
@@ -7691,7 +8757,7 @@ MonoBehaviour:
   Path: event:/SFX/Enemies/Hellephant/Death
   guid: 2964137ddd7dc041af3a8f9ef14326e4
   Banks:
-  - {fileID: 114673874466109552}
+  - {fileID: 114917873621247938}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -7714,6 +8780,23 @@ MonoBehaviour:
   Name: EnemiesQuantity
   Min: 0
   Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &114629943677061310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsUnderHalfHealth
+  m_EditorClassIdentifier: 
+  Name: IsUnderHalfHealth
+  Min: 0
+  Max: 1
   Default: 0
   Exists: 0
 --- !u!114 &114630089202387856
@@ -7755,6 +8838,24 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 0
+--- !u!114 &114633838450424820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD Studio Tutorial Project/Survival-Shooter/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 638943340429855201
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &114634180086610664
 MonoBehaviour:
@@ -7895,6 +8996,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &114650327590754374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &114652717150908624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7986,6 +9104,40 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &114659239862052086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsUnderHalfHealth
+  m_EditorClassIdentifier: 
+  Name: IsUnderHalfHealth
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114663265033740660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsDead
+  m_EditorClassIdentifier: 
+  Name: IsDead
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114664295737753910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8164,6 +9316,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114673779259455934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &114673874466109552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8182,6 +9351,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &114674726311149136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &114675236371619768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8307,7 +9493,7 @@ MonoBehaviour:
   Path: event:/SFX/Player/Footstep
   guid: 73340e5beb027f4080f91d3e322f79fb
   Banks:
-  - {fileID: 114673874466109552}
+  - {fileID: 114917873621247938}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -8557,6 +9743,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114710015230031414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &114710833006018406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8572,6 +9775,41 @@ MonoBehaviour:
   Path: ../FMOD Studio Tutorial Project/Survival-Shooter/Build/Desktop/Master.bank
   SubDir: 
   lastModified: 638901651029702107
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &114714019651287830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &114715510322367850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD Studio Tutorial Project/Survival-Shooter/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 638943361304100941
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -8625,13 +9863,13 @@ MonoBehaviour:
   Path: event:/Music/Survival_Shooter
   guid: 627b1ade0856834db1f060822e777004
   Banks:
-  - {fileID: 114673874466109552}
+  - {fileID: 114917873621247938}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 114954674655365696}
-  - {fileID: 114173630178245778}
+  - {fileID: 114413577686878896}
+  - {fileID: 114956766259445708}
   MinDistance: 0
   MaxDistance: 0
   Length: 42400
@@ -8668,7 +9906,7 @@ MonoBehaviour:
   Path: event:/SFX/Enemies/ZomBear/Death
   guid: fdd52b098c4da449a2a6dcdf302cae82
   Banks:
-  - {fileID: 114673874466109552}
+  - {fileID: 114917873621247938}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -8798,6 +10036,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114730687576391802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsUnderHalfHealth
+  m_EditorClassIdentifier: 
+  Name: IsUnderHalfHealth
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114731258037415344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8847,6 +10102,40 @@ MonoBehaviour:
   Name: 2
   Min: 0
   Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114737539585783682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsUnderHalfHealth
+  m_EditorClassIdentifier: 
+  Name: IsUnderHalfHealth
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114738564183406786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
   Default: 0
   Exists: 0
 --- !u!114 &114739168849785826
@@ -8919,6 +10208,40 @@ MonoBehaviour:
   Default: 0
   Exists: 1
 --- !u!114 &114744368816816362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &114744395907772372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &114745549672668114
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9225,11 +10548,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../FMOD Studio Tutorial Project/Survival-Shooter/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 638943097179067442
+  lastModified: 638949891725574306
   LoadResult: 0
   FileSizes:
   - Name: 
-    Value: 1798
+    Value: 1892
   Exists: 1
 --- !u!114 &114764552064651056
 MonoBehaviour:
@@ -9280,7 +10603,7 @@ MonoBehaviour:
   Path: event:/SFX/Enemies/ZomBear/Hurt
   guid: fc9e02280c79e742a180b626cb8efe0d
   Banks:
-  - {fileID: 114673874466109552}
+  - {fileID: 114917873621247938}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -9541,6 +10864,40 @@ MonoBehaviour:
   lastModified: 638845036180000000
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &114785216278394490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &114785874911713716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
   Exists: 0
 --- !u!114 &114785948250026110
 MonoBehaviour:
@@ -9955,6 +11312,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &114822697390556722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &114825171898647226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10019,6 +11393,23 @@ MonoBehaviour:
   m_Name: parameter:/Survival_Shooter/IsUnderHalfHealth
   m_EditorClassIdentifier: 
   Name: IsUnderHalfHealth
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114838817031364508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsDead
+  m_EditorClassIdentifier: 
+  Name: IsDead
   Min: 0
   Max: 1
   Default: 0
@@ -10183,6 +11574,23 @@ MonoBehaviour:
   lastModified: 638942200879110141
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &114854455729947162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsDead
+  m_EditorClassIdentifier: 
+  Name: IsDead
+  Min: 0
+  Max: 1
+  Default: 0
   Exists: 0
 --- !u!114 &114854606283131054
 MonoBehaviour:
@@ -10492,6 +11900,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114874960093187976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsDead
+  m_EditorClassIdentifier: 
+  Name: IsDead
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114875012227099344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10570,6 +11995,24 @@ MonoBehaviour:
   Path: ../FMOD Studio Tutorial Project/Survival-Shooter/Build/Desktop/Master.bank
   SubDir: 
   lastModified: 638943052958836114
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &114882630922314590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD Studio Tutorial Project/Survival-Shooter/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 638943349128922649
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -10718,6 +12161,23 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 461
+--- !u!114 &114899518861224866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &114900070859396366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10838,6 +12298,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 1
+--- !u!114 &114904658027167522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsDead
+  m_EditorClassIdentifier: 
+  Name: IsDead
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114906759400732894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11019,6 +12496,41 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114917873621247938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD Studio Tutorial Project/Survival-Shooter/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 638949891725544238
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &114918156925409108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &114918874265422686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11053,6 +12565,24 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 1
+--- !u!114 &114920779463660068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD Studio Tutorial Project/Survival-Shooter/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 638943361107990811
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &114921364182698462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11070,6 +12600,23 @@ MonoBehaviour:
   lastModified: 638935527440324899
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &114922862496959190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
   Exists: 0
 --- !u!114 &114923511333711010
 MonoBehaviour:
@@ -11111,6 +12658,23 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1265
+--- !u!114 &114926520759839972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsUnderHalfHealth
+  m_EditorClassIdentifier: 
+  Name: IsUnderHalfHealth
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114927837103314752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11128,6 +12692,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &114928447616290596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &114928875471450136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsDead
+  m_EditorClassIdentifier: 
+  Name: IsDead
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114929183424650344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11318,6 +12916,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114941988860298486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &114943786568564162
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11370,6 +12985,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 1
+--- !u!114 &114945782453256730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsDead
+  m_EditorClassIdentifier: 
+  Name: IsDead
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114947116391119756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11600,6 +13232,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &114956766259445708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsUnderHalfHealth
+  m_EditorClassIdentifier: 
+  Name: IsUnderHalfHealth
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114957832263326304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11632,7 +13281,7 @@ MonoBehaviour:
   Path: event:/SFX/Enemies/Hellephant/Hurt
   guid: e3bab8947665214294d5d256de2f827f
   Banks:
-  - {fileID: 114673874466109552}
+  - {fileID: 114917873621247938}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -11726,6 +13375,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &114965924864545968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsUnderHalfHealth
+  m_EditorClassIdentifier: 
+  Name: IsUnderHalfHealth
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114966788727287496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11741,6 +13407,23 @@ MonoBehaviour:
   Name: IsUnderHalfHealth
   Min: 0
   Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114968447270597736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
   Default: 0
   Exists: 0
 --- !u!114 &114969002872440290
@@ -11830,6 +13513,40 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 1
+--- !u!114 &114972237230816322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &114973145919035942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &114974414528791828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11967,6 +13684,23 @@ MonoBehaviour:
   Default: 0
   Exists: 1
 --- !u!114 &114981332292602270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/EnemiesQuantity
+  m_EditorClassIdentifier: 
+  Name: EnemiesQuantity
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &114981800895903418
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12166,6 +13900,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 1
+--- !u!114 &114988769182083694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Survival_Shooter/IsUnderHalfHealth
+  m_EditorClassIdentifier: 
+  Name: IsUnderHalfHealth
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114991081627671278
 MonoBehaviour:
   m_ObjectHideFlags: 0

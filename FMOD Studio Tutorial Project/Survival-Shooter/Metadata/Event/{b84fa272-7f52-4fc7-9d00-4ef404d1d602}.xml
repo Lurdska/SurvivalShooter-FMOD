@@ -59,7 +59,7 @@
 	</object>
 	<object class="EventAutomatableProperties" id="{187f3fb9-b69d-48e5-b6a5-3d0f1529f0d6}">
 		<property name="maxVoices">
-			<value>5</value>
+			<value>3</value>
 		</property>
 		<property name="priority">
 			<value>3</value>
@@ -131,6 +131,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{f456503d-8dcd-48e4-8fa4-fe534d435956}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -254,7 +257,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>1.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{2367a007-56ea-48b3-905f-7987ec7627d2}">
@@ -262,7 +265,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-4.5</value>
+			<value>-3</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{eb19b31e-e840-419c-a452-592a1c614df6}">
@@ -270,7 +273,7 @@
 			<value>2</value>
 		</property>
 		<property name="value">
-			<value>-8.5</value>
+			<value>-7</value>
 		</property>
 	</object>
 </objects>

@@ -127,7 +127,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{6936dbec-1f9c-417c-940b-1ea8790c17c6}">
 		<property name="volume">
-			<value>-21</value>
+			<value>-10</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{80de8ee7-b85c-4451-a4cf-bc71d75cab78}</destination>
@@ -213,7 +213,7 @@
 	</object>
 	<object class="SnapshotModule" id="{5c587a0d-804e-4a1e-848b-07833803931f}">
 		<property name="length">
-			<value>16</value>
+			<value>19.200000000000003</value>
 		</property>
 		<relationship name="triggerConditions">
 			<destination>{a20fa9b8-f96a-4709-bc39-db70de1db635}</destination>

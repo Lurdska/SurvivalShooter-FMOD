@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 114
+  controlID: 143
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -129,7 +129,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 115
+  controlID: 144
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,7 +154,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 116
+  controlID: 145
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -210,23 +210,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: aa0c0000
       m_LastClickedID: 0
-      m_ExpandedIDs: defbffffd614000018150000
+      m_ExpandedIDs: ea370000ec370000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: EffectsSlider
-        m_OriginalName: EffectsSlider
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 5160
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -296,9 +296,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 23.51699, y: -12.037662, z: 36.416782}
+    m_Target: {x: 0, y: 0.467, z: 0.17499995}
     speed: 2
-    m_Value: {x: 23.51699, y: -12.037662, z: 36.416782}
+    m_Value: {x: 0, y: 0.467, z: 0.17499995}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -308,7 +308,7 @@ MonoBehaviour:
   m_SceneViewState:
     showFog: 1
     showMaterialUpdate: 1
-    showSkybox: 1
+    showSkybox: 0
     showFlares: 1
     showImageEffects: 1
     showParticleSystems: 1
@@ -330,9 +330,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.14806376, y: -0.27580577, z: 0.043042142, w: -0.9487654}
   m_Size:
-    m_Target: 68.9165
+    m_Target: 11.883081
     speed: 2
-    m_Value: 68.9165
+    m_Value: 11.883081
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -532,20 +532,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/_CompletedAssets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/_CompletedAssets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Lourdes\Documents\GitHub\SurvivalShooter-FMOD\Survival-Shooter-FMod-Tutorial
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 20}
-    m_SelectedIDs: 000b0000
-    m_LastClickedID: 2816
-    m_ExpandedIDs: 00000000000b0000200b0000300b0000660c00007e0c0000ea0c0000ba0e00005613000000ca9a3b
+    m_SelectedIDs: 060e0000
+    m_LastClickedID: 3590
+    m_ExpandedIDs: 00000000000b0000200b0000300b0000660c00007e0c0000ea0c0000ba0e00000416000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -573,7 +573,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000000b0000200b0000300b0000660c00007e0c0000ea0c0000ba0e000056130000
+    m_ExpandedIDs: 00000000000b0000200b0000300b0000660c00007e0c0000ea0c0000ba0e000004160000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -598,8 +598,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: aa0c0000
+    m_LastClickedInstanceID: 3242
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:

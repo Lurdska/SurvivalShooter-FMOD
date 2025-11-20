@@ -54,12 +54,12 @@
 			<destination>{4a8626d4-f778-4ae1-a2a2-552907e2687b}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{8f576603-344a-4e0e-b5f5-df4a63170fd7}</destination>
+			<destination>{13d4a18a-5b58-419c-8b90-b2b9f28cf5ca}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{301ee06c-5bc4-4a68-83dd-a8095aefe958}">
 		<property name="maxVoices">
-			<value>5</value>
+			<value>4</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{d60c5cf9-dc60-4ae0-8ed4-7bde98559935}" />

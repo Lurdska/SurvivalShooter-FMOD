@@ -54,12 +54,12 @@
 			<destination>{cffb4919-22bb-45bc-884c-621d56153f1e}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{8f576603-344a-4e0e-b5f5-df4a63170fd7}</destination>
+			<destination>{95e192ea-09fc-4b64-897a-51c3117d7ee4}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{dc5e31fb-1123-4c29-967a-005404b0ee6c}">
 		<property name="maxVoices">
-			<value>3</value>
+			<value>2</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{6c1211a9-4d77-45c8-95a9-0125add7e32d}" />
@@ -139,6 +139,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{322004cb-93a1-46dd-98bb-6e14f569f7d0}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -260,7 +263,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-7</value>
+			<value>-10.0000038</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{f7083d19-6361-4746-9144-5edba1960a9f}">
@@ -268,7 +271,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>-3</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{d078003e-b272-48a2-bc87-f8678ae93f84}">
@@ -276,7 +279,7 @@
 			<value>2</value>
 		</property>
 		<property name="value">
-			<value>-15</value>
+			<value>-18.0000038</value>
 		</property>
 	</object>
 	<object class="Automator" id="{ea70b46f-3898-4299-94f0-9fd2520b92fd}">
